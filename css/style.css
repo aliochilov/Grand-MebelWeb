@@ -13,12 +13,14 @@
     font-family: sans-serif;
     font-size: 20px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 .nav-link{
     color: #222;
     font-size: 15px;
-    font-weight: 400;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif !important;
     margin-left: 30px;
+    letter-spacing: 0.5px;
     transition: all 0.5s;
 }
 .nav-link:hover{
@@ -28,32 +30,62 @@
     color: #fff;
 }
 .act{
-    margin-left: 0;
+    margin-left: 100px;
 }
 
 .cap{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #9A734A;
-    padding: 5px 50px;
+    padding: 8px 50px;
     height: 40px;
 }
 .phone-number h2{
     font-size: 15px;
-    margin-top: 5px;
-    align-items: center;
     color: #fff;
 }
-.lang h2{
-    font-size: 15px;
-    margin-top: 5px;
+.lang{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    color: #fff;
+    margin-top: 10px;
 }
+
 .dropdown-toggle{
     font-size: 15px;
-    /* margin-top: 5px; */
-    align-items: center;
     color: #fff;
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+.collapse{
+    display: flex !important;
+    justify-content: center;
+}
+
+.home{
+    margin: 30px 50px 0 50px !important;
+
+}
+.carousel-inner{
+    height: 550px;
+}
+.home-right{
+    padding: 0 20px;
+}
+.home-chair{
+    background: url("/img/cms-banner-1.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+.pixels{
+    position: absolute;
+    transition: all 0.5s; 
+    width: 400px;
+    height: 200px;
+}
+
+.pixels:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: all 0.5s; 
+}

@@ -1,5 +1,33 @@
-/* @media screen and (max-width:1000px) {
-    .collapse,.navbar-collapse{
+@media screen and (max-width:1000px) {
+    .collapse:not(.show) {
+        display: none !important;
+    }
+    .collapse{
+        justify-content: flex-start !important;
+
+    }
+    .nav-link{
+        margin-left: 0;
+        padding: 5px;
+    }
+    .formm{
+        display: none;
+    }
+    .container-fluid{
+        margin: 0 20px 0 20px !important;
+    }
+    .home{
+        margin: 0 25px 0 25px !important;
         display: block !important;
     }
-} */
+    .carousel{
+        width: 100% !important;
+    }
+
+
+
+
+
+
+
+}
