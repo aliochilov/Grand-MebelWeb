@@ -17,14 +17,22 @@
         margin: 0 20px 0 20px !important;
     }
     .home{
-        margin: 0 25px 0 25px !important;
+        margin: 0 15px 0 15px !important;
         display: block !important;
+    }
+    .home-right{
+        padding: 0;
+    }
+    .home-diapazon{
+        width: 380px;
     }
     .carousel{
         width: 100% !important;
     }
 
-
+    .carousel-inner {
+        height: 250px;
+    }
 
 
 
