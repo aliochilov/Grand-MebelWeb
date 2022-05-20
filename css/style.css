@@ -99,7 +99,7 @@ body{
 }
 .home-chair h4{
     padding: 20px 0px 0 30px;
-    font-size: 20px;
+    font-size: 15px;
 }
 .home-chair h2{
     padding: 10px 0px 0 30px;
@@ -108,7 +108,7 @@ body{
 }
 .home-chair a{
     padding: 20px 0px 0 30px;
-    text-transform: uppercase;
+    font-size: 15px;
     color: #9A734A;
     position: absolute;
 }
@@ -125,12 +125,6 @@ body{
 .home-diapazon h2{
     padding: 20px 0px 0 30px;
     font-size: 23px;
-}
-.home-diapazon a{
-    bottom: 0 ;
-    padding: 0px 0px 0 30px;
-    text-transform: uppercase;
-    color: #9A734A;
 }
 
 .home-box{
@@ -152,7 +146,6 @@ body{
 }
 .home-box a{
     padding: 20px 0px 0 30px;
-    text-transform: uppercase;
     color: #9A734A;
     position: absolute;
 }
