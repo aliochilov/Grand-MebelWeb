@@ -33,9 +33,18 @@
     .carousel-inner {
         height: 250px;
     }
-
-
-
-
+    footer{
+        display: block;
+        justify-content: center;
+    }
+    footer .icon{
+        padding: 0;
+        text-align: center;
+    }
+    footer .text {
+        padding: 10px 20px;
+    }
+    .menager{
+    }
 
 }
