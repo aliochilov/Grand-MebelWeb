@@ -20,42 +20,14 @@ async function getResponse() {
             function resultView(arr){
                 let html=''
                 data.forEach(item => {
-                        html+= `<div class="card" style="width: 18rem;">
-                        <img src="${item.img}" class="img-fluid" height="400px"  alt="...">
-                        <div class="card-body">
-                            <p class="card-text">${item.name}</p>
-                        </div>
-                        </div>`
+                        html+= `<div class="card  me-3 mb-5" style="width: 18rem;">
+                                <img src="${item.img}" class="img-fluid"  alt="...">
+                                </div>`
                 })
                 row.innerHTML = html
             }
             resultView()
-        }else if (!input.value === "") {
-            function resultView(arr){
-                let html=''
-                arr.forEach(item => {
-                        html+= `<div class="card" style="width: 18rem;">
-                        <img src="${item.img}" class="img-fluid" height="400px" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">${item.name}</p>
-                        </div>
-                        </div>`
-                })
-                row.innerHTML = html
-            }
         }
-            function resultView(arr){
-                let html=''
-                arr.forEach(item => {
-                        html+= `<div class="card" style="width: 18rem;">
-                        <img src="${item.img}" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">${item.name}</p>
-                        </div>
-                        </div>`
-                })
-                row.innerHTML = html
-            }
         
 
     }
