@@ -1,7 +1,4 @@
-
-
 html{
-
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
@@ -14,7 +11,7 @@ body
     background-repeat: no-repeat; */
     width: 100%;
     max-width: 100%;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 .container-fluid{
@@ -117,7 +114,6 @@ body
 .pixels{
     position: absolute;
     transition: all 0.5s; 
-    max-width: 400px;
     width: 100%;
     height: 200px;
 }
@@ -147,7 +143,6 @@ body
     width: 100%;
     height: 200px;
     position: relative;
-    margin-top: 10px;
 }
 
 
