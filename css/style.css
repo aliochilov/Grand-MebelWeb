@@ -11,6 +11,10 @@ body
 .row{
         --bs-gutter-x: 0rem !important;
 }
+.about{
+        --bs-gutter-x: 1.5rem !important;
+}
+
         .container-fluid{
     margin: 0 50px 0 50px !important;
 }
