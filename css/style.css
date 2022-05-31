@@ -12,7 +12,12 @@ body
         --bs-gutter-x: 0rem !important;
 }
 .about{
-        --bs-gutter-x: 1.5rem !important;
+    --bs-gutter-x:  1.5rem !important;
+}
+@media screen and (max-width:786px){
+    .about{
+        --bs-gutter-x:  0rem !important;
+    }
 }
 
         .container-fluid{
